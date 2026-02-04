@@ -16,5 +16,17 @@ public class Main {
         //prueba de funcionalidad
         cliente1.suscribirse(new Suscripcion(TipoSuscripcion.PLATINUM, 199.99, Periodicidad.ANUAL));
         cliente2.suscribirse(suscripcion2);
+
+        //pruebas set
+        System.out.println(cliente3.getNombre());
+        cliente3.setNombre("Alexander");
+        System.out.println(cliente3.getNombre());
+
+        //pruebas equals
+        Cliente cliente4 = new Cliente("Roberto", "Gonzalez Castillo", 117260520, 'm', "Heredia");
+
+
+        System.out.println(cliente4.equals(cliente1));
+
     }
 }
