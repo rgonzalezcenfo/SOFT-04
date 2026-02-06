@@ -2,10 +2,10 @@ public class Suscripcion {
 
     private TipoSuscripcion tipo;
     private double costo;
-    private Periodicidad periodicidad;
+    private int periodicidad;
 
     //constructor
-    public Suscripcion(TipoSuscripcion tipo, double costo, Periodicidad preiodicidad) {
+    public Suscripcion(TipoSuscripcion tipo, double costo, int periodicidad) {
         this.tipo = tipo;
         this.costo = costo;
         this.periodicidad = periodicidad;
@@ -21,7 +21,7 @@ public class Suscripcion {
         return costo;
     }
 
-    public Periodicidad getPreiodicidad() {
+    public int getPeriodicidad() {
         return periodicidad;
     }
 
@@ -36,13 +36,20 @@ public class Suscripcion {
         this.costo = costo;
     }
 
-    public void setPreiodicidad(Periodicidad preiodicidad) {
-        this.periodicidad = preiodicidad;
+    public void setPeriodicidad(int periodicidad) {
+        this.periodicidad = periodicidad;
     }
 
-    //equals
+    //equals()
     public boolean equals(Suscripcion suscripcionComparar){
         return tipo == suscripcionComparar.tipo && periodicidad == suscripcionComparar.periodicidad;
+    }
+
+    //toString()
+    public String toString(){
+        return "\nTipo: " + tipo +
+                "\nPeriodicidad: " + periodicidad +
+                "\nCosto: " + costo + "\n";
     }
 }
 

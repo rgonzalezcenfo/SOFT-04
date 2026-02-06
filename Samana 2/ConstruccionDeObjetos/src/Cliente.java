@@ -3,12 +3,12 @@ import java.util.Objects;
 public class Cliente {
     private String nombre;
     private String apellidos;
-    private int cedula;
+    private String cedula;
     private char sexo;
     private String ubicacion;
 
     //constructores
-    public Cliente(String nombre, String apellidos, int cedula, char sexo, String ubicacion) {
+    public Cliente(String nombre, String apellidos, String cedula, char sexo, String ubicacion) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.cedula = cedula;
@@ -16,7 +16,7 @@ public class Cliente {
         this.ubicacion = ubicacion;
     }
 
-    public Cliente(String nombre, String apellidos, int cedula, String ubicacion) {
+    public Cliente(String nombre, String apellidos, String cedula, String ubicacion) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.cedula = cedula;
@@ -35,7 +35,7 @@ public class Cliente {
         return apellidos;
     }
 
-    public int getCedula() {
+    public String getCedula() {
         return cedula;
     }
 
@@ -56,7 +56,7 @@ public class Cliente {
         this.apellidos = apellidos;
     }
 
-    public void setCedula(int cedula) {
+    public void setCedula(String cedula) {
         this.cedula = cedula;
     }
 
@@ -68,11 +68,20 @@ public class Cliente {
         this.ubicacion = ubicacion;
     }
 
-//    equals
+//    equals()
     public boolean equals(Cliente clienteComparar){
         return apellidos.equals(clienteComparar.apellidos) && cedula == clienteComparar.cedula;
     }
 
+    //toString()
+
+
+    public String toString() {
+        return "\nNombre: " + nombre +
+                "\nApellidos: "  + apellidos +
+                "\nCedula: " + cedula +
+                "\nSexo: " + sexo;
+    }
 
     //metodos
     public void suscribirse(Suscripcion suscripcion){
