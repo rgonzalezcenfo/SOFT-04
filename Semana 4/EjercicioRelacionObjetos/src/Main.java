@@ -25,7 +25,7 @@ public class Main {
         //3.
         System.out.println("\nPruebas ejercicio 3:");
         System.out.println(" ");
-        MaquinaSoldar soldadora1 = new MaquinaSoldar("Furius", "Force 253 CEL", "Media", new String[]{"Acero", "Acero Inoxidable", "Aluminio", "Cobre", "Niquel"});
+        MaquinaSoldar soldadora1 = new MaquinaSoldar("Furius", "Force 253 CEL", 250, new String[]{"Acero", "Acero Inoxidable", "Aluminio", "Cobre", "Niquel"});
 
         persona1.soldar(soldadora1, "Acero");
         persona1.soldar(soldadora1, "Titanio");

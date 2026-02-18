@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Persona {
     private String nombre;
     private String apellidos;
@@ -47,5 +49,48 @@ public class Persona {
     //mwtodos maquina de soldar
     public void soldar(MaquinaSoldar maquinaSoldar, String material){
         maquinaSoldar.soldar(material);
+    }
+
+    //getters
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public Mascota getMascota() {
+        return mascota;
+    }
+
+    public Pasaporte getPasaporte() {
+        return pasaporte;
+    }
+
+    //setters
+
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    //equals
+    public boolean equals(Persona persona) {
+        return Objects.equals(nombre, persona.nombre) && Objects.equals(apellidos, persona.apellidos) && Objects.equals(pasaporte, persona.pasaporte);
+    }
+
+    //toString
+
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                '}';
     }
 }

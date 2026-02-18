@@ -26,9 +26,57 @@ public class Pasaporte {
         return estaVigente;
     }
 
+    public String getNumero() {
+        return numero;
+    }
+
+    public String getNacionalidad() {
+        return nacionalidad;
+    }
+
+    public String getFechaEmision() {
+        return fechaEmision;
+    }
+
+    public String getFechaVencimiento() {
+        return fechaVencimiento;
+    }
+
     //setter
 
     public void setEstaVigente(boolean estaVigente) {
         this.estaVigente = estaVigente;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public void setNacionalidad(String nacionalidad) {
+        this.nacionalidad = nacionalidad;
+    }
+
+    public void setFechaEmision(String fechaEmision) {
+        this.fechaEmision = fechaEmision;
+    }
+
+    public void setFechaVencimiento(String fechaVencimiento) {
+        this.fechaVencimiento = fechaVencimiento;
+    }
+
+    //equals
+    public boolean equals(Pasaporte pasaporte){
+        return numero.equals(pasaporte.numero);
+    }
+
+    //toString
+    public String toString() {
+        return "Pasaporte{" +
+                "numero='" + numero + '\'' +
+                ", nacionalidad='" + nacionalidad + '\'' +
+                ", fechaEmision='" + fechaEmision + '\'' +
+                ", fechaVencimiento='" + fechaVencimiento + '\'' +
+                ", estaVigente=" + estaVigente +
+                '}';
     }
 }
