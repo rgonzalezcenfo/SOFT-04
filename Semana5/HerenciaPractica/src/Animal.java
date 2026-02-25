@@ -4,9 +4,6 @@ public class Animal {
     protected String nombre;
     protected String especie;
 
-    public Animal(String nombre) {
-        this.nombre = nombre;
-    }
 
     //getter
     public String getNombre() {

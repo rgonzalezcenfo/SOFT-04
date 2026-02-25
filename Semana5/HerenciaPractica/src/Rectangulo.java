@@ -32,12 +32,12 @@ public class Rectangulo extends Figura{
     //metodos
 
     public double calcularArea(){
-        super.calcularArea();
+//        super.calcularArea();
         return ladoA * ladoB;
     }
 
     public double calcularPerimetro() {
-        super.calcularPerimetro();
+//        super.calcularPerimetro();
         return 2*(ladoA + ladoB);
     }
 

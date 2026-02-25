@@ -1,10 +1,6 @@
-public class Figura {
+public abstract class Figura {
 
-    public double calcularArea(){
-        return 0;
-    }
+    public abstract double calcularArea();
 
-    public double calcularPerimetro(){
-        return 0;
-    }
+    public abstract double calcularPerimetro();
 }

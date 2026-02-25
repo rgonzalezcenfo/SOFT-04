@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Cuenta {
+public abstract class Cuenta {
     protected String numero;
     protected double saldo;
     protected String titular;
@@ -12,41 +12,7 @@ public class Cuenta {
     }
 
     //metodos
-    public void retirar(double cantidad){
-        if ( 0 > saldo - cantidad){
-            System.out.print("No hay saldo suficientes");
-        } else {
-            saldo = saldo - cantidad;
-        }
-    }
-
-    public void depositar(double cantidad) {
-        saldo += cantidad;
-    }
-
-    //getters
-
-    public double getSaldo() {
-        return saldo;
-    }
-
-    public String getNumero() {
-        return numero;
-    }
-
-    public String getTitular() {
-        return titular;
-    }
-
-    //setter
-
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
-
-    public void setTitular(String titular) {
-        this.titular = titular;
-    }
+    public abstract void retirar(double cantidad);
 
 
     //equals

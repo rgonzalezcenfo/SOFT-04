@@ -25,12 +25,12 @@ public class Circulo  extends Figura{
     //metodos
 
     public double calcularArea(){
-        super.calcularArea();
+//        super.calcularArea();
         return Math.PI * radio * radio;
     }
 
     public double calcularPerimetro(){
-        super.calcularPerimetro();
+//        super.calcularPerimetro();
         return Math.PI * radio * 2;
     }
 
