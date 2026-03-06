@@ -1,26 +1,29 @@
-public class CuentaDebito extends Cuenta{
+package gonzalez.roberto.bl;
+
+public class CuentaAhorros extends Cuenta{
+
     private final String ID;
     private static int contador = 0;
 
     //constructoes
 
-    public CuentaDebito(double tasaInteres) {
+    public CuentaAhorros(double tasaInteres) {
         contador++;
-        this.ID = "CD-" + contador;
+        this.ID = "CA-" + contador;
         this.tasaInteres = tasaInteres;
-        this.saldo = 0;
+        this.saldo = 100;
     }
 
-    public CuentaDebito(double tasaInteres, double saldoInicial) {
+    public CuentaAhorros(double tasaInteres, double saldoInicial) {
         contador++;
-        this.ID = "CD-" + contador;
+        this.ID = "CA-" + contador;
         this.tasaInteres = tasaInteres;
         this.saldo = saldoInicial;
     }
 
     //toString
     public String toString() {
-        return "Cuenta de Debito: " + ID;
+        return "Cuenta de Ahorros: " + ID;
     }
 
     //getter
@@ -34,8 +37,9 @@ public class CuentaDebito extends Cuenta{
     }
 
     //metodos
+
     public void retirar(double montoRetiro){
-        if(this.saldo - montoRetiro < 0){
+        if(this.saldo - montoRetiro < 100){
             System.out.println("Saldo insuficiente");
         } else {
             saldo -= montoRetiro;
@@ -49,5 +53,4 @@ public class CuentaDebito extends Cuenta{
     public void generarIntereses(){
         saldo += tasaInteres*saldo;
     }
-
 }

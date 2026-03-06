@@ -1,3 +1,5 @@
+package gonzalez.roberto.bl;
+
 public class CuentaCredito extends Cuenta{
     private final String ID;
     private static int contador = 0;
