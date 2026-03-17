@@ -1,0 +1,24 @@
+Mar 16, 2026 10:56:30 PM RegistrodeErrores registarError
+WARNING: [2026-03-16La Biblioteca no posee este material] - Error tipo: 
+MaterialNoDisponibleException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:23)
+
+Mar 16, 2026 10:56:30 PM RegistrodeErrores registarError
+WARNING: [2026-03-16La Biblioteca no posee este material] - Error tipo: 
+MaterialNoDisponibleException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:32)
+
+Mar 16, 2026 10:56:30 PM RegistrodeErrores registarError
+WARNING: [2026-03-16La Biblioteca no posee este material] - Error tipo: 
+MaterialNoDisponibleException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:41)
+
+Mar 16, 2026 10:56:30 PM RegistrodeErrores registarError
+WARNING: [2026-03-16La Biblioteca no posee este material] - Error tipo: 
+MaterialNoDisponibleException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:59)
+

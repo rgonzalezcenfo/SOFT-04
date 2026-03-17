@@ -1,0 +1,118 @@
+Mar 16, 2026 11:00:07 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:23)
+
+Mar 16, 2026 11:00:07 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:32)
+
+Mar 16, 2026 11:00:07 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:41)
+
+Mar 16, 2026 11:00:07 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:59)
+
+Mar 16, 2026 11:03:41 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoExisteException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:23)
+
+Mar 16, 2026 11:03:41 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoExisteException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:32)
+
+Mar 16, 2026 11:03:41 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoExisteException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:41)
+
+Mar 16, 2026 11:03:41 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoExisteException: La Biblioteca no posee este material
+	at Biblioteca.prestarMaterial(Biblioteca.java:48)
+	at Main.main(Main.java:59)
+
+Mar 16, 2026 11:09:42 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: El material ya está prestado
+	at Material.prestar(Material.java:29)
+	at Usuario.prestarMaterial(Usuario.java:50)
+	at Biblioteca.prestarMaterial(Biblioteca.java:57)
+	at Main.main(Main.java:32)
+
+Mar 16, 2026 11:09:42 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+UsuarioNoEncontradoException: Usuario no encontrado
+	at Biblioteca.prestarMaterial(Biblioteca.java:61)
+	at Main.main(Main.java:41)
+
+Mar 16, 2026 11:09:42 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoExisteException: La Biblioteca no posee este material
+	at Biblioteca.devolverMaterial(Biblioteca.java:76)
+	at Main.main(Main.java:50)
+
+Mar 16, 2026 11:09:42 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: El material ya está prestado
+	at Material.prestar(Material.java:29)
+	at Usuario.prestarMaterial(Usuario.java:50)
+	at Biblioteca.prestarMaterial(Biblioteca.java:57)
+	at Main.main(Main.java:59)
+
+Mar 16, 2026 11:10:54 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: El material ya está prestado
+	at Material.prestar(Material.java:29)
+	at Usuario.prestarMaterial(Usuario.java:50)
+	at Biblioteca.prestarMaterial(Biblioteca.java:57)
+	at Main.main(Main.java:32)
+
+Mar 16, 2026 11:10:54 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+UsuarioNoEncontradoException: Usuario no encontrado
+	at Biblioteca.prestarMaterial(Biblioteca.java:61)
+	at Main.main(Main.java:41)
+
+Mar 16, 2026 11:17:03 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: El material ya está prestado
+	at Material.prestar(Material.java:29)
+	at Usuario.prestarMaterial(Usuario.java:50)
+	at Biblioteca.prestarMaterial(Biblioteca.java:57)
+	at Main.main(Main.java:32)
+
+Mar 16, 2026 11:17:03 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+UsuarioNoEncontradoException: Usuario no encontrado
+	at Biblioteca.prestarMaterial(Biblioteca.java:61)
+	at Main.main(Main.java:41)
+
+Mar 16, 2026 11:18:10 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+MaterialNoDisponibleException: El material ya está prestado
+	at Material.prestar(Material.java:29)
+	at Usuario.prestarMaterial(Usuario.java:50)
+	at Biblioteca.prestarMaterial(Biblioteca.java:55)
+	at Main.main(Main.java:32)
+
+Mar 16, 2026 11:18:10 PM RegistrodeErrores registarError
+WARNING: [ 2026-03-16 ]
+UsuarioNoEncontradoException: Usuario no encontrado
+	at Biblioteca.prestarMaterial(Biblioteca.java:64)
+	at Main.main(Main.java:41)
+
