@@ -1,4 +1,4 @@
-package gonzalez.roberto.bl;
+package gonzalez.roberto.bl.entities;
 
 public class CuentaCredito extends Cuenta{
     private final String ID;

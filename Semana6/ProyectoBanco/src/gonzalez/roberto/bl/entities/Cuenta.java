@@ -1,6 +1,4 @@
-package gonzalez.roberto.bl;
-
-import java.util.Objects;
+package gonzalez.roberto.bl.entities;
 
 public abstract class Cuenta {
     protected double saldo;

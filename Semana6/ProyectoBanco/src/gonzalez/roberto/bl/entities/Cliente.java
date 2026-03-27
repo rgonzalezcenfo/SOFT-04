@@ -1,36 +1,36 @@
-package gonzalez.roberto.bl;
+package gonzalez.roberto.bl.entities;
 
 import java.time.LocalDate;
 import java.util.Objects;
 import java.util.ArrayList;
 
 public class Cliente {
-    private String nombre;
-    private String apellidos;
+    private String nombre_completo;
     private String cedula;
     private LocalDate fechaNacimiento;
     private String ocupacion;
     private String residencia;
+    private String contrasenia;
     private ArrayList<Cuenta> cuentas;
 
 
     //constructor
-    public Cliente(String nombre, String apellidos, String cedula, LocalDate fechaNacimiento, String ocupacion, String residencia) {
-        this.nombre = nombre;
-        this.apellidos = apellidos;
+
+
+    public Cliente(String nombre_completo, String cedula, LocalDate fechaNacimiento, String ocupacion, String residencia, String contrasenia) {
+        this.nombre_completo = nombre_completo;
         this.cedula = cedula;
         this.fechaNacimiento = fechaNacimiento;
         this.ocupacion = ocupacion;
         this.residencia = residencia;
+        this.contrasenia = contrasenia;
     }
+
+
 
     //Getters
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getApellidos() {
-        return apellidos;
+    public String getNombre_completo() {
+        return nombre_completo;
     }
 
     public String getCedula() {
@@ -49,14 +49,15 @@ public class Cliente {
         return residencia;
     }
 
-    //Setters
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getContrasenia() {
+        return contrasenia;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    //Setters
+
+
+    public void setNombre_completo(String nombre_completo) {
+        this.nombre_completo = nombre_completo;
     }
 
     public void setCedula(String cedula) {
@@ -76,6 +77,10 @@ public class Cliente {
         this.residencia = residencia;
     }
 
+    public void setContrasenia(String contrasenia) {
+        this.contrasenia = contrasenia;
+    }
+
     //equals
     public boolean equals(Cliente cliente) {
         return Objects.equals(cedula, cliente.cedula);
@@ -84,8 +89,7 @@ public class Cliente {
     //toString
     public String toString() {
         return "Cliente{" +
-                "nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
+                "nombre='" + nombre_completo + '\'' +
                 ", cedula='" + cedula + '\'' +
                 ", fechaNacimiento=" + fechaNacimiento +
                 ", ocupacion='" + ocupacion + '\'' +
